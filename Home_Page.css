@@ -1,0 +1,676 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*--------HEADER------*/
+.sec1{
+    width: auto;
+    height: 6.5rem;
+    background-color: #000;
+    display: flex;
+
+}
+.logo{
+    margin-left: 8%;
+}
+.logo a img{
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+.logo a h4{
+    color: #fff;
+    font-style: italic;
+    text-indent: 0.4rem;
+    font: icon;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-style: italic;
+    margin-top: 0.4rem;
+    text-decoration: none;
+}
+.logo2 img{
+    margin-left: 3rem;
+    margin-right: 3.5rem;
+}
+h5{
+    color: red;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.links li a{
+    display: inline-block;
+    margin-left: 1rem;
+    text-decoration: none;
+    margin-top: 0.9rem;
+}
+.links li a h5:hover{
+    color: green;
+    transition: 1s;
+}
+.login{
+    margin: 1rem;
+    margin-top: 2.2rem;
+    
+}
+.login a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.login a h5:hover{
+    color: green;
+    transition: 1s;
+}
+.signup{
+    padding: 0.4rem;
+    font-size: 2rem;
+    margin-bottom: 2.1rem;
+    margin-top: 2rem;
+    border: 0.15rem green solid;
+    border-radius: 10px;
+}
+.signup a h5:hover{
+    color: green;
+    transition: 1s;
+}
+.signup a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.details{
+     float: right; 
+     color: green;
+     background-color: #000;
+     width: auto;
+     padding-left: 57%;
+     padding-right: 9.3%;
+     font-size: 1.2rem;
+     padding-bottom: 0.2rem;   
+}
+.line hr{
+    padding: auto;
+    width: 100%;
+    height: 4px;
+    background-color: red;
+    border: none;
+}
+
+
+/*-----------------IMAGE----------*/
+.sec2{
+    width: 100%;
+    height: 600px;
+    background: url(images/angel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.word{
+    margin-left: 300px;
+    padding-top: 8%;  
+}
+.word h1{
+    font-size: 50px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.word h1 span{
+    padding-left: 205px;
+}
+.word p{
+    font-size: 30px;
+    margin-left: 185px;
+    padding-top: 30px;
+    padding-bottom: 5%;
+    
+}
+.word p span{
+    margin-left: 205px;
+        
+}
+.word a{
+    margin-left: 34%;
+    margin-top: 50%;
+   /* border: 2px solid rgb(88, 51, 4); */
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(212, 126, 13);
+    border-radius: 10px;
+    margin-bottom: 30%;
+    transition: 1.5s;
+}
+.word a:hover{
+    background-color: green;
+}
+.p2{
+    font-size: 25px;
+    margin-top: 10%;
+    padding-left: 20%;
+    background-color: #000;
+    opacity: 0.5;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    
+}
+.collection{
+    display: flex; 
+    margin-right: 25px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+}
+.story{
+    border: 1px solid rgb(122, 228, 119);
+    border-radius: 5px;
+    margin-top: 75px;
+    margin-left: 5px;
+    text-decoration: none;
+    padding-top: 10px;
+   /* padding-left: 10px;*/
+   /* padding-right: 20px;*/
+    width: 23%;
+    color: #fff;
+}
+h4{
+    padding-bottom: 20px;
+    color: lightblue;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.hori{
+    width: 100%;
+    color: rgb(122, 228, 119);
+    text-decoration-thickness: 1px;
+    list-style: 1px;
+}
+.hans img{
+    padding-left: 10px;
+}
+.hans p{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.hans nav{
+    padding-left: 10px;
+    color: grey;
+    font-size: 20px;
+}
+.hans span{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.hans span span{
+    color: lightblue;
+}
+
+/*--------NOTICE-----*/
+.com{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.ntice hr{
+    width: 100%;
+    height: 4px;
+    background-color: darkorange;
+    border: none;
+}
+.advert p{
+    padding-left: 18%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #000;
+    opacity: 0.5;
+    text-align: justify;    
+}
+.advert p a:hover{
+    color: lightblue;
+}
+.advert p span{
+    padding: 0.3rem 1.5rem;
+    background-color: rgb(7, 250, 7);
+    border-radius: 2px;
+    
+}
+.advert p span a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    margin-left: 3px;
+}
+
+/*---------HOW IT WORKS-------*/
+.bg{
+    background-color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+}
+.how{
+    text-align: center;
+    text-emphasis: bold;
+    font-size: 40px;
+    color: lightblue;
+}
+.work{
+    margin-left: 11%;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.procedure{
+    margin-left: 9%;
+}
+.procedure h3{
+    font-size: 20px;
+    padding-left: 15px;
+    color: lightblue;
+}
+.procedure img{
+    width: 200px;
+}
+
+/*---------TESTIMONIALS---------*/
+.test{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 25px;
+    color: lightblue;
+}
+.testimonials{
+    display: flex;
+    margin-left: 150px;
+}
+.stories{
+    margin-left: 45px;
+    background-color: #ccc;
+   /* padding: 10px;*/
+}
+.stories p{
+    margin-bottom: 10%;
+    padding: 10px;
+}
+
+.oscar{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    margin-top: 52px;
+    
+
+}
+.oscar span h3{
+    font-size: 20px;
+}
+.osc{
+    margin-bottom: 29%;
+}
+.milton{
+    margin-bottom: 10%;
+}
+.sam{
+    margin-bottom: 53%;
+}
+.rick{
+    margin-bottom: 37%;
+}
+.more{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px 20px;
+    background-color: rgb(231, 94, 15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+    border-radius: 5px;
+    transition: 1.5s;
+    box-shadow: #fff;
+}
+.more:hover{
+    background-color: green;
+}
+.more a{
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: #fff;
+}
+
+/*--------KNOW MORE------*/
+.combine{
+    background-color: #ccc;
+    height: 50%;
+    padding-bottom: 10%;
+}
+.know{
+    text-align: center;
+    padding-top: 10%;
+    
+}
+.know h1{
+    font-size: 35px;
+    padding-bottom: 5px;
+}.know p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.know2{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: rgb(231, 94, 15);
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 5px;
+    transition: 1.5s;
+    color: #fff;
+}
+.know2:hover{
+    background-color: green;
+}
+.link{
+    text-decoration: none;
+}
+
+/*------------GEARBOX-------*/
+.gearb{
+    background-color: rgb(71, 161, 247);
+    padding-bottom: 3%;
+}
+.geardetails{
+    text-align: center;
+    padding: 30px;
+    color: rgb(91, 173, 250);
+    opacity: 2;
+}
+.geardetails h2{
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+.geardetails p{
+    font-size: 30px;
+}
+.image{
+    padding-left: 30%;
+}
+.gearlink{
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(231, 94, 15);
+    margin-left: 40%;
+    margin-right: 40%;  
+    border-radius: 5px; 
+    transition: 1.5s; 
+}
+.gearlink:hover{
+    background-color: rgb(35, 190, 15);
+}
+.gearlink a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---------LENDER-------*/
+.general{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: rgb(39, 38, 38);
+}
+.lender{
+    text-align: center;
+    
+}
+.lender h6{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.lender p{
+    font-size: 30px;
+}
+.lender2{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: rgb(231, 94, 15);
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+    transition: 1.5s;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.lender2:hover{
+    background-color: rgb(35, 190, 15);
+}
+.lender2 a{
+    text-decoration: none;
+    color: #fff;
+}
+/*-----------FORBES---------*/
+.forbes{
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 10%;
+}
+.media4 a{
+    border-radius: 2px;
+    padding: 5px 12px;
+    background-color: rgb(30, 172, 238);
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 2px;
+   /* font-size: 20px;*/
+}
+.media1{
+    display: flex;
+    margin-top: 10px;
+}
+.media2 a{
+    border-radius: 10px;
+    padding: 1px 12px;
+    background-color: rgb(30, 172, 238);
+    color: #fff;
+    text-decoration: none; 
+    padding-top: 5px;
+    font-size: 20px;
+}
+.media2 a img{
+    width: 20px;
+    height: 20px;
+}
+.media3{
+    border: 1px solid grey;
+    margin-left: 2px;
+    border-radius: 3px;
+    transition: 1s;
+}
+.media3:hover{
+    text-underline-position: below;
+    text-decoration: underline;
+}
+.media3 a{
+    padding: 1px 12px;
+    text-decoration: none;
+    color: #fff;
+}
+.cert img{
+    width: 200px;
+    height: 120px;
+    margin-left: 70%;
+}
+.forbes1{
+    margin-left: 20%;
+}
+.forbes1 p span{
+    font-size: 45px;
+    font-weight: bolder;
+    color: grey;
+}
+.trustee{
+    margin-left: 3%;
+}
+.media4 a img{
+    width: 20px;
+    height: 20px;
+    padding-bottom: 0px;
+}
+
+/*-----------ACCORDOIN------------*/
+.questions{
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.questions p{
+    font-size: 30px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .panel p{
+    font-size: 23px;
+    color: #ccc;
+  }
+
+  /*--------LATEST BLOG POST-------*/
+  .blogs{
+    background-color: rgb(53, 51, 51);
+  }
+  .latest{
+    font-size: 30px;
+    color: grey;
+    margin-left: 8%;
+  }
+  .posts{
+    margin-left: 10%;
+    margin-bottom: 1%;
+    margin-right: 50%;
+    padding-top: 1%;
+   /* background-color: #ccc;*/
+    display: flex;
+  }
+  .blog{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 5px 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .blog p a{
+    font-size: 19px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .blog p a:hover{
+    color: rgb(30, 172, 238);
+  }
+  .blog a img{
+    width: 250px;
+    height: 200px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  /*--------HORIZONTAL-------*/
+  .line hr{
+    padding: auto;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(30, 172, 238);
+    border: none;
+}
+
+/*------------FOOTER----------*/
+.footer{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    background-color: rgb(48, 47, 47);
+}
+.company{
+    margin-left: 8%;
+}
+.company ul li a{
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+}
+.company ul li a:hover{
+    text-decoration: underline;
+}
+/*----------DIVIDE-------*/
+.divide{
+    padding-left: 15%;
+    background-color: rgb(48, 47, 47);
+}
+.divide hr{
+    color: rgb(202, 200, 200);
+    
+    padding-right: 10%;
+    height: 0.5px;
+    overflow: hidden;
+    width: 80%;
+    
+}
+/*-------------FINAL---------*/
+.all{
+    background-color: rgb(48, 47, 47);
+}
+.title{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-size: 15px;
+    background-color: rgb(48, 47, 47);
+}
+.det{
+    background-color: rgb(48, 47, 47);
+    font-size: 15px;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
