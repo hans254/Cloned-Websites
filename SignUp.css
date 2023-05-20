@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*-----------HEADRER------------*/
+.header{
+    background-color: #000;
+    top: 0;
+}
+.img img{
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.links{
+    float: right;
+    margin-top: 3.5rem;
+    margin-left: 25%;
+    margin-right: 12%;
+}
+.links a{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.links a:hover{
+    color: rgb(58, 193, 238);
+}
+.details{
+    float: right;
+    font-size: 20px;
+    margin-right: 15%;
+    font-style: italic;
+    color: rgb(58, 193, 238);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.horizontal-line hr{
+    background-color: rgb(4, 125, 165);
+    height: 0.1rem;
+    border: none;
+    width: 100%;
+   padding-bottom: 5px;
+}
+
+/*----------CONTAINER--------*/
+.container{
+    display: flex;
+    gap: 1rem;
+    margin-left: 10%;
+}
+.newfunded{
+    
+    width: 30%;
+}
+.heading5 h5{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #ccc;
+}
+.box1{
+    background-color: rgb(43, 42, 42);
+}
+.top{
+    background-color: rgb(88, 202, 240);
+    opacity: 0.8;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+.box1 ul li{
+    margin-left: 10%; 
+    margin-bottom: 1.5rem; 
+    font-size: 1.3rem;
+}
+.box1-paragraph p{
+    margin-top: 2.5rem;
+    margin-left: 9%;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+.signup_content{
+    margin-left: 1rem;
+}
+.signup_content h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.signup_content p{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.signup_details select{
+    padding: 0.5rem 18rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #353434;
+    font-size: 1.5rem;
+    border: thin solid gray;
+}
+.signup_details input{
+    padding: 0.5rem 20rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #353434;
+}
+.checkbox-container{
+    margin-top: 0.5rem;
+    display: flex;
+}
+.checkbox-input input{
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.checkbox-paragraph{
+    margin-left: 1rem;
+}
+.checkbox-paragraph span{
+    font-size: 1px;
+}
+.images{
+    margin-bottom: 1rem;
+    margin-left: 45%;
+    margin-top: 1rem;
+}
+.image1{
+    width: 35%;
+    height: 35%;
+}
+.sign-me-up{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    background-color: orange;
+    margin: 1rem 42% 1.5rem 42%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sign-me-up:hover{
+    background-color: rgb(79, 202, 79);
+}
+.sign-me-up a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*--------HORIZONTAL-------*/
+.line hr{
+    padding: auto;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(30, 172, 238);
+    border: none;
+}
+
+/*------------FOOTER----------*/
+.footer{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    background-color: rgb(48, 47, 47);
+}
+.company{
+    margin-left: 8%;
+}
+.company ul li a{
+    text-decoration: none;
+    color: rgb(202, 200, 200);
+}
+.company ul li a:hover{
+    text-decoration: underline;
+}
+/*----------DIVIDE-------*/
+.divide{
+    padding-left: 15%;
+    background-color: rgb(48, 47, 47);
+}
+.divide hr{
+    color: rgb(202, 200, 200);
+    
+    padding-right: 10%;
+    height: 0.5px;
+    overflow: hidden;
+    width: 80%;
+    
+}
+/*-------------FINAL---------*/
+.all{
+    background-color: rgb(48, 47, 47);
+}
+.title{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-size: 15px;
+    background-color: rgb(48, 47, 47);
+}
+.det{
+    background-color: rgb(48, 47, 47);
+    font-size: 15px;
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
