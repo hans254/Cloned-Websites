@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-----------HEADRER------------*/
+.header{
+    background-color: #000;
+    top: 0;
+}
+.img img{
+    padding: 2rem 0rem 0rem 6rem;
+}
+.links{
+    float: right;
+    margin: 2rem 4rem 0.5rem 0rem;
+
+}
+.links span a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: x-large;
+    transition: 1s;
+}
+.links span a:hover{
+    color:  rgb(10, 186, 244);
+}
+.details p{
+    background-color: #000;
+    margin-top: 2rem;
+    font-size: 20px;
+    float: right;
+    margin-right: 1rem;
+    color: rgb(10, 186, 244);
+    
+}
+.horizontal-line hr{
+    background-color: rgb(4, 125, 165);
+    height: 0.1rem;
+    border: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.padding{
+    width: auto;
+    height: 1rem;
+    background-color: #000;
+}
+
+
+/*----------BODY----------*/
+.h1 h1{
+    margin-top: 2rem;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+.get-started a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 45%;
+    padding: 1rem 2rem;
+    background-color: orange;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.get-started a:hover{
+    background-color: green;
+}
+.picture{
+    margin-top: 3%;
+    margin-left: 12%;
+    margin-bottom: 2%;
+}
+
+/*--------FOOTER-------*/
+.h6{
+    background-color: rgb(62, 61, 61);
+}
+.h6 h6{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.h6 p{
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
